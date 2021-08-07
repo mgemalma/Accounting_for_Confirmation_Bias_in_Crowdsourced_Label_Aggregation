@@ -17,9 +17,8 @@ This is a repository for the data and code for the paper "Accounting for Confirm
 2. Modify Makefile to point to the locations of the GSL.
 3. Run make.
 
-To run the algorithm
-	- make
-	./em <Name of the data>
+To run the algorithm;
+	./em <Name of the dataset file>
 
 The algorithm will produce two files:
 results.txt which will include the label predictions and
