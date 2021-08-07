@@ -27,6 +27,9 @@ worker_parameter_results.txt will include the labeler and statement parameters.
 em.c is the starter file, has the main function and the high level EM code.
 prob_functions.c contains the EM code and its helper functions.
 data.c manages the dataset, it receives the input dataset and outputs the two prediction txts from above.
+## Supplementary Materials
+
+Supplemental Material.docx contains the full derivations for our paper and also provides the political statements we used in our experiment.
 
 ## Data Sample
 
