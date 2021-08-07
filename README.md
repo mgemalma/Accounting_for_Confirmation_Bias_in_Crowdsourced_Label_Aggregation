@@ -14,15 +14,16 @@ This is a repository for the data and code for the paper "Accounting for Confirm
 ## INSTALLATION INSTRUCTIONS
 
 1. Install GSL, if not already installed.
-2. Modify Makefile to point to the locations of the GSL.
+2. Modify Makefile inside the `Algorithm` directory to point to the correct locations of the GSL library.
 3. Run make.
 
 To run the algorithm;
 	./em <Name of the dataset file>
 
 The algorithm will produce two files:
-results.txt which will include the label predictions and
-worker_parameter_results.txt will include the labeler and statement parameters.
+
+`results.txt` which will include the label predictions and
+`worker_parameter_results.txt` will include the labeler and statement parameters.
 
 em.c is the starter file, has the main function and the high level EM code.
 prob_functions.c contains the EM code and its helper functions.
