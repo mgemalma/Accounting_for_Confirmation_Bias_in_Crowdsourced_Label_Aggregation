@@ -3,6 +3,7 @@ default: em
 clean:
 	rm -f *.o em
 
+# Set these variables to correct locations
 CBLAS_LIB=/Users/altuggemalmaz/Desktop/gsl-2.6/cblas/.libs
 GSL_LIB=/Users/altuggemalmaz/Desktop/gsl-2.6/.libs
 GSL_INCLUDE=/Users/altuggemalmaz/Desktop/gsl-2.6
