@@ -32,6 +32,10 @@ data.c manages the dataset, it receives the input dataset and outputs the two pr
 
 Here attached a data sample of from the raw data `worker_data.csv`. Each row is a piece of record on a worker that answered all of the tasks.
 
+| workerID | humanPredictAccuracy | humanPredictSelfAccuracy | reliability | faith | competence | understandability | treatment | surveyTrust |
+| -------- | ---------------------| -----------------------  | ------------| ----- | ---------- | ----------------- | --------- | ----------- |
+| 94 | 70 | 80 | 5 | 3 | 5 | 7| 0 | 5 | 
+
 | worker_index | stance | age | gender | education | state | party | gc_stance | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 | S11 | S12
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | 0 | 2 | 4.0 | 1.0 | 8.0 | AZ | 1.0 | 3.0 | -1 | 0 | 0 | 0 | 0 | -1 | 0 | 0 | 0 | 0 | 1 | -1 |
