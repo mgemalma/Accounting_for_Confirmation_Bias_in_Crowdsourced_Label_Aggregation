@@ -50,19 +50,20 @@ In all of the below fields, the values that are not in the specifically defined 
 * `age` Int. [1 - 9] The age range of the worker. Under 12 years old (1), 12-17 years old (2), 18-24 years old (3), 25-34 years old (4), 35-44 years old (5), 45-54 years old (6), 55-64 years old (7), 65-74 years old (8) and 75 years or older (9).
 * `gender` Int. [1 - 3] The gender of the worker. Male (1), Female (2) and Other (3).
 * `education` Int. [1 - 11] The worker's highest degree or level of school that she have completed. No schooling completed (1), Nursery school to 8th grade (2), Some high school, no diploma (3), High school graduate, diploma or the equivalent (for example: GED) (4), Some college credit, no degree (5), Trade/technical/vocational training (6), Associate degree (7), Bachelor’s degree (8), Master’s degree (9), Professional degree (10) and Doctorate degree (11).
-* `state` Str. The initials of the state that the worker is completing the task.
+* `state` Str. The initials of the state that the worker is completing the task from.
 * `party` Int. [1 - 3] The worker's political party of affiliation. Democrat (1), Republican (2) and Independent (3).
 * `gc_stance` Int. [1 - 7] The worker's stance for Gun Control, the smaller the stance is, the more worker is strongly against gun control and vice-versa for strongly supporting gun control.
 * `S1 - S12` Int. Each of them respectively reports the answer given by the worker to that task. `1` indicates "Opinion" `0` indicates "Factual" and `-1` indicates "I don't know".
 
-The content of the `worker_answers.txt` includes the format that the algorithm is expecting and contains the following.
+The `worker_answers.txt` is in the format that the algorithm is expecting and contains the following.
+
 The first row contains;
 | Total number of Labels | Number of Labelers | Number of Statements |
 | -------- | -------- | -------- |
 | 1213 | 110 | 12 |
-* `Total number of Labels` Int. The total number of labelers acquired from the workers.
-* `Number of Labelers` Int. The total number of workers who labeled the task.
-* `Number of Statements` Int. The number of statements or the number of tasks that we expect to find ground truth of.
+* `Total number of Labels` Int. The total number of labels acquired from the workers.
+* `Number of Labelers` Int. The total number of workers who labeled the tasks.
+* `Number of Statements` Int. The number of statements or the number of tasks that we expect to find ground-truth value of.
 
 All the other rows;
 | Statement ID | Labeler ID | Label |
@@ -70,7 +71,7 @@ All the other rows;
 | 0 | 3 | 1 |
 * `Statement ID` Int. Index of the statement.
 * `Labeler ID` Int. Index of the labeler (worker).
-* `Label` Int. The label given by the worker to the statement or task.
+* `Label` Int. The label given by the worker to the statement or the task.
 
 ## Licensing & Citing
 When using or building upon the data in an academic publication, please consider citing as follows:
