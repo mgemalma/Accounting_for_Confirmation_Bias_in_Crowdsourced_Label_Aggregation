@@ -23,7 +23,7 @@ To run the algorithm;
 The algorithm will produce two files:
 
 `results.txt` which will include the label predictions and
-`worker_parameter_results.txt` will include the inferred labeler and statement parameters.
+`worker_parameter_results.txt` which will include the inferred labeler and statement parameters.
 
 `em.c` contains the main function and the high level EM code.
 
@@ -37,13 +37,13 @@ Supplemental Material.docx contains the full derivations for our paper and also 
 
 ## Data Sample
 
-Here attached a data sample of from the raw data `worker_data.csv`. Each row is a piece of record on a worker that answered all of the tasks.
+Here attached a data sample from the raw data `worker_data.csv`. Each row is a piece of record on a worker that answered all of the tasks.
 
 | worker_index | stance | age | gender | education | state | party | gc_stance | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 | S11 | S12
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 | 0 | 2 | 4.0 | 1.0 | 8.0 | AZ | 1.0 | 3.0 | -1 | 0 | 0 | 0 | 0 | -1 | 0 | 0 | 0 | 0 | 1 | -1 |
 
-The field values that doesn't belong to the ranges in the dataset are data loss.
+In all of the below fields, the values that are not in the specifically defined range are data loss.
 
 * `worker_index` Int. The unique ID for each worker assigned.
 * `stance` Int. [1 - 7] Workers’ self-reported political stance. The smaller the stance is, the more worker is holding liberal values and vice-versa for conservative values.
