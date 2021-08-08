@@ -8,7 +8,7 @@ This is a repository for the data and code for the paper "Accounting for Confirm
 
 * `Algorithm` contains the code of the proposed algorithm implemented by C. GSL library version 2.6 is used widely in the code and this library needs to be downloaded.
 
-* `Datasets` contains 1: `worker_answers.txt` the cleaned data that contains the answers of the workers' and is ready to be given to the algorithm 2:`worker_data.csv` contains the raw data of the workers.
+* `Datasets` contains 1: `worker_answers.txt` the cleaned data that contains the answers of the workers' and is ready to be given to the algorithm 2:`worker_data.csv` contains the raw data of the workers who passed the attention check.
 ## Algorithm
 
 ## INSTALLATION INSTRUCTIONS
