@@ -57,6 +57,8 @@ In all of the below fields, the values that are not in the specifically defined 
 
 The `worker_answers.txt` is in the format that the algorithm is expecting and contains the following.
 
+NOTE: We treat every "I don't know" label as a missing label and do not include it.
+
 The first row contains;
 | Total number of Labels | Number of Labelers | Number of Statements |
 | -------- | -------- | -------- |
