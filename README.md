@@ -18,7 +18,7 @@ This is a repository for the data and code for the paper "Accounting for Confirm
 3. Run make.
 
 To run the algorithm;
-	./em <Name of the dataset file>
+	./em \<Name of the dataset file\>
 
 The algorithm will produce two files:
 
