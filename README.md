@@ -4,6 +4,10 @@
 
 This is a repository for the data and code for the paper "Accounting for Confirmation Bias in Crowdsourced Label Aggregation".
 
+## Questions?
+
+Please reach out to the author for any questions. You can contact at: [mgemalma@purdue.edu](mailto:mgemalma@purdue.edu).
+
 ## Repository Structure
 
 * `Algorithm` contains the code of the proposed algorithm implemented by C. GSL library version 2.6 is used widely in the code and this library needs to be downloaded.
